@@ -1,0 +1,498 @@
+{
+    "admin": {
+        "login": "admin",
+        "password": "12345"
+    },
+    "students": {
+        "1": {
+            "name": "Serik",
+            "surname": "Bazilov",
+            "age": "18",
+            "course": "1",
+            "major": "SE"
+        },
+        "2": {
+            "name": "Anar",
+            "surname": "Berik",
+            "age": "19",
+            "course": "2",
+            "major": "MT"
+        },
+        "3": {
+            "name": "Egor",
+            "surname": "Durov",
+            "age": "17",
+            "course": "1",
+            "major": "BDA"
+        },
+        "4": {
+            "name": "Kristina",
+            "surname": "Belogina",
+            "age": "20",
+            "course": "3",
+            "major": "CS",
+            "attendance": {},
+            "grades": {}
+        },
+        "5": {
+            "name": "Aiko",
+            "surname": "ADAAAAM",
+            "age": "15",
+            "course": "2",
+            "major": "SE",
+            "attendance": {},
+            "grades": {}
+        },
+        "6": {
+            "name": "Fatima",
+            "surname": "Zukhra",
+            "age": "17",
+            "course": "1",
+            "major": "CS"
+        },
+        "7": {
+            "name": "Darmen",
+            "surname": "Bagazhanov",
+            "age": "17",
+            "course": "1",
+            "major": "SE"
+        },
+        "8": {
+            "name": "Zhanyl",
+            "surname": "Kaiyrzhan",
+            "age": "18",
+            "course": "2",
+            "major": "BDA",
+            "attendance": {}
+        },
+        "9": {
+            "name": "Solamon",
+            "surname": "Kemer",
+            "age": "18",
+            "course": "2",
+            "major": "ITM",
+            "attendance": {}
+        },
+        "10": {
+            "name": "Almas",
+            "surname": "Serik",
+            "age": "16",
+            "course": "1",
+            "major": "MT",
+            "attendance": {},
+            "grades": {}
+        },
+        "11": {
+            "name": "Kaisar",
+            "surname": "Toleubai",
+            "age": "18",
+            "course": "2",
+            "major": "CS",
+            "attendance": {},
+            "grades": {}
+        },
+        "12": {
+            "name": "Aiym",
+            "surname": "Temirbayeva",
+            "age": "19",
+            "course": "2",
+            "major": "CS",
+            "attendance": {}
+        }
+    },
+    "teachers": {
+        "t_id1": {
+            "name": "Askar",
+            "surname": "Toktar",
+            "subject": "Computer Organization",
+            "rates": {}
+        },
+        "t_id2": {
+            "name": "Ben",
+            "surname": "Thomas",
+            "subject": "English",
+            "rates": {}
+        },
+        "t_id3": {
+            "name": "Vladimir",
+            "surname": "Vladimirovich",
+            "subject": "Computer Science",
+            "rates": {}
+        },
+        "t_id4": {
+            "name": "Alegra",
+            "surname": "Makintosh",
+            "subject": "Software Architecture",
+            "rates": {}
+        },
+        "t_id5": {
+            "name": "Berik",
+            "surname": "Alisher",
+            "subject": "Russian Language",
+            "rates": {}
+        },
+        "t_id6": {
+            "name": "Askar",
+            "surname": "Jappar",
+            "subject": "Computer Organization",
+            "rates": {}
+        },
+        "t_id7": {
+            "name": "Bekzada",
+            "surname": "Kamieva",
+            "subject": "Kazakh Language",
+            "rates": {}
+        },
+        "t_id8": {
+            "name": "Ivan",
+            "surname": "Filko",
+            "subject": "Pentesting",
+            "rates": {}
+        },
+        "t_id9": {
+            "name": "Yenlik",
+            "surname": "Begimbayeva",
+            "subject": "Computer Science",
+            "rates": {}
+        },
+        "t_id10": {
+            "name": "Zhanerke",
+            "surname": "Baimukhanova",
+            "subject": "Software Architecture",
+            "rates": {}
+        }
+    },
+    "courses": {
+        "course_id1": {
+            "name": "Cryptography",
+            "credits": "5",
+            "course_type": "specialty",
+            "lecturer": "not attached",
+            "practice teacher": "not attached",
+            "participants": {}
+        },
+        "course_id2": {
+            "name": "Introduction to programming",
+            "credits": "3",
+            "course_type": "specialty",
+            "lecturer": "V. Vladimirovich",
+            "practice teacher": "not attached",
+            "participants": {}
+        },
+        "course_id3": {
+            "name": "ICT",
+            "credits": "3",
+            "course_type": "specialty",
+            "lecturer": {
+                "name": "Askar",
+                "surname": "Toktar"
+            },
+            "practice teacher": {
+                "name": "Vladimir",
+                "surname": "Vladimirovich"
+            },
+            "participants": {
+                "11": {
+                    "name": "Kaisar",
+                    "surname": "Toleubai",
+                    "age": "18",
+                    "course": "2",
+                    "major": "CS",
+                    "attendance": {},
+                    "grades": {
+                        "LAB7": 80
+                    }
+                },
+                "10": {
+                    "name": "Almas",
+                    "surname": "Serik",
+                    "age": "16",
+                    "course": "1",
+                    "major": "MT",
+                    "attendance": {},
+                    "grades": {}
+                }
+            }
+        },
+        "course_id4": {
+            "name": "Academic English",
+            "credits": "2",
+            "course_type": "general",
+            "lecturer": {
+                "name": "Ben",
+                "surname": "Thomas"
+            },
+            "practice teacher": "not attached",
+            "participants": {
+                "12": {
+                    "name": "Aiym",
+                    "surname": "Temirbayeva",
+                    "age": "19",
+                    "course": "2",
+                    "major": "CS",
+                    "attendance": {},
+                    "grades": {
+                        "LAB5": 90
+                    }
+                },
+                "11": {
+                    "name": "Kaisar",
+                    "surname": "Toleubai",
+                    "age": "18",
+                    "course": "2",
+                    "major": "CS",
+                    "attendance": {},
+                    "grades": {}
+                }
+            }
+        },
+        "course_id5": {
+            "name": "Advanced programming: Java",
+            "credits": "5",
+            "course_type": "specialty",
+            "lecturer": "not attached",
+            "practice teacher": "not attached",
+            "participants": {
+                "9": {
+                    "name": "Zhanyl",
+                    "surname": "Kaiyrzhan",
+                    "age": "18",
+                    "course": "2",
+                    "major": "BDA",
+                    "attendance": {}
+                },
+                "10": {
+                    "name": "Solamon",
+                    "surname": "Kemer",
+                    "age": "18",
+                    "course": "2",
+                    "major": "ITM",
+                    "attendance": {}
+                }
+            }
+        },
+        "course_id6": {
+            "name": "Physical Culture",
+            "credits": "2",
+            "course_type": "general",
+            "lecturer": "not attached",
+            "practice teacher": "not attached",
+            "participants": {}
+        },
+        "course_id7": {
+            "name": "DBMS (Oracle)",
+            "credits": "3",
+            "course_type": "specialty",
+            "lecturer": "V. Vladimirovich",
+            "practice teacher": "not attached",
+            "participants": {
+                "4": {
+                    "name": "Kristina",
+                    "surname": "Belogina",
+                    "age": "20",
+                    "course": "3",
+                    "major": "CS",
+                    "attendance": {},
+                    "grades": {}
+                },
+                "5": {
+                    "name": "Aiko",
+                    "surname": "ADAAAAM",
+                    "age": "15",
+                    "course": "2",
+                    "major": "SE",
+                    "attendance": {},
+                    "grades": {}
+                }
+            }
+        }
+    },
+    "free courses": {
+        "freec_id1": {
+            "name": "Advanced SQL",
+            "number of places": "20",
+            "author": "Didar Yedilkhan",
+            "participants": {
+                "1": {
+                    "name": "Serik",
+                    "surname": "Bazilov",
+                    "age": "18",
+                    "course": "1",
+                    "major": "SE"
+                },
+                "2": {
+                    "name": "Anar",
+                    "surname": "Berik",
+                    "age": "19",
+                    "course": "2",
+                    "major": "MT"
+                },
+                "3": {
+                    "name": "Egor",
+                    "surname": "Durov",
+                    "age": "17",
+                    "course": "1",
+                    "major": "BDA"
+                }
+            }
+        },
+        "freec_id2": {
+            "name": "Data Structures",
+            "number of places": "20",
+            "author": "Didar Yedilkhan",
+            "participants": {
+                "1": {
+                    "name": "Serik",
+                    "surname": "Bazilov",
+                    "age": "18",
+                    "course": "1",
+                    "major": "SE"
+                },
+                "2": {
+                    "name": "Anar",
+                    "surname": "Berik",
+                    "age": "19",
+                    "course": "2",
+                    "major": "MT"
+                }
+            }
+        },
+        "freec_id3": {
+            "name": "IOS development",
+            "number of places": "20",
+            "author": "Darkhan Serkeshev",
+            "participants": {
+                "2": {
+                    "name": "Anar",
+                    "surname": "Berik",
+                    "age": "19",
+                    "course": "2",
+                    "major": "MT"
+                },
+                "3": {
+                    "name": "Egor",
+                    "surname": "Durov",
+                    "age": "17",
+                    "course": "1",
+                    "major": "BDA"
+                }
+            }
+        }
+    },
+    "log_pass": {
+        "students": {
+            "1": {
+                "id": "1",
+                "login": "qwerty1",
+                "password": "asdfg1"
+            },
+            "2": {
+                "id": "2",
+                "login": "qwerty2",
+                "password": "asdfg2"
+            },
+            "3": {
+                "id": "3",
+                "login": "qwerty3",
+                "password": "asdfg3"
+            },
+            "4": {
+                "id": "4",
+                "login": "qwerty4",
+                "password": "asdfg4"
+            },
+            "5": {
+                "id": "5",
+                "login": "qwerty5",
+                "password": "asdfg5"
+            },
+            "6": {
+                "id": "6",
+                "login": "qwerty6",
+                "password": "asdfg6"
+            },
+            "7": {
+                "id": "7",
+                "login": "qwerty7",
+                "password": "asdfg7"
+            },
+            "8": {
+                "id": "8",
+                "login": "qwerty8",
+                "password": "asdfg8"
+            },
+            "9": {
+                "id": "9",
+                "login": "qwerty9",
+                "password": "asdfg9"
+            },
+            "10": {
+                "id": "10",
+                "login": "qwerty10",
+                "password": "asdfg10"
+            },
+            "11": {
+                "id": "11",
+                "login": "kaisar",
+                "password": "8514"
+            },
+            "12": {
+                "id": "12",
+                "login": "aiym",
+                "password": "19043"
+            }
+        },
+        "teachers": {
+            "1203": {
+                "id": "t_id10",
+                "login": "zhanerke.baimukhanova@aitu.edu.kz",
+                "password": "qwerty11"
+            },
+            "1230": {
+                "id": "t_id9",
+                "login": "yenlik.begimbayeva@aitu.edu.kz",
+                "password": "qwerty11"
+            },
+            "1206": {
+                "id": "t_id8",
+                "login": "ivan.filko@aitu.edu.kz",
+                "password": "qwerty12"
+            },
+            "1037": {
+                "id": "t_id7",
+                "login": "bekzada.kamieva@aitu.edu.kz",
+                "password": "qwerty13"
+            },
+            "1258": {
+                "id": "t_id6",
+                "login": "askar.jappar@aitu.edu.kz",
+                "password": "qwerty14"
+            },
+            "1239": {
+                "id": "t_id5",
+                "login": "berik.alisher@aitu.edu.kz",
+                "password": "qwerty15"
+            },
+            "1280": {
+                "id": "t_id4",
+                "login": "alegra.makintosh@aitu.edu.kz",
+                "password": "qwerty16"
+            },
+            "1241": {
+                "id": "t_id3",
+                "login": "vladimir.vladimirov@aitu.edu.kz",
+                "password": "qwerty17"
+            },
+            "1452": {
+                "id": "t_id2",
+                "login": "ben.thomas@aitu.edu.kz",
+                "password": "qwerty18"
+            },
+            "1423": {
+                "id": "t_id1",
+                "login": "askar.toktar@aitu.edu.kz",
+                "password": "qwerty19"
+            }
+        }
+    }
+}
